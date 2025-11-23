@@ -1,0 +1,29 @@
+/* Step 1 & 2: Set up Flex containers and their direction */
+body {
+    display: flex;
+    flex-direction: column; /* Stacks header, main, and footer vertically */
+}
+
+main {
+    display: flex;
+    flex-direction: row; /* Puts article and aside side-by-side */
+}
+
+/* Step 3: Ensure main occupies remaining vertical space */
+main {
+    flex: auto;
+}
+
+/* Step 4: Define Content Widths */
+article {
+    flex: 3; /* Takes 3 parts of 4 total */
+}
+
+aside {
+    flex: 1; /* Takes 1 part of 4 total */
+}
+
+/* Step 5: Enable Vertical Scrolling for Content */
+article, aside {
+    overflow-y: auto;
+}

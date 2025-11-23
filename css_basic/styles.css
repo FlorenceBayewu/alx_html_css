@@ -38,4 +38,43 @@ article, aside {
         display: none;
     }
 }
+/* Style the logo */
+header .logo {
+    font-size: 2rem;       /* make it bigger */
+    color: gold;           /* logo color */
+    margin-right: 1rem;    /* space between logo and other items */
+}
+
+/* Example article styling */
+article {
+    background-color: #f9f9f9; /* light background */
+    padding: 1rem;             /* inner spacing */
+    border: 1px solid #ddd;    /* subtle border */
+    border-radius: 8px;        /* rounded corners */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;               /* text color */
+}
+
+/* Optional additional styling */
+aside {
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+    border-left: 2px solid #ccc;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
 
